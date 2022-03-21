@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #160343 27.26%, #593bb3 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #f7f7f7;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e2d2f;
+  padding: 64px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  width: 160px;
+  height: 40px;
+  left: 600px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 460px;
+  width: 158px;
+  height: 160px;
+}
+
+.perfil {
+  display: flex;
+}
+
+.titulo h1 {
+  font-size: 36px;
+  line-height: 40px;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  width: 499px;
+  left: 322px;
+  top: 160px;
+}
+
+.titulo h3 {
+  font-size: 24px;
+  line-height: 27px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  width: 499px;
+  left: 322px;
+  top: 210px;
+}
+
+.projetos {
+  background: linear-gradient(236.85deg, #8757cb 27.26%, #cbb4ff 96.03%);
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  left: 157px;
+  top: 283px;
+  margin-top: 32px;
+}
+
+.projetos ul {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 5%;
+  font-weight: 700;
+  bottom: 10%;
+  line-height: 56px;
+}
+
+.projetos li p {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 42px;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-left: 1%;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #513786 27.26%, #786ba9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #271641;
+  border-radius: 20px;
+}
+
+.dark .perfil {
+  color: #f7f7f7;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
